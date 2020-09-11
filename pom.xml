@@ -55,8 +55,8 @@
 	</developers>
 
 	<scm>
-		<url>https://wenshao@github.com/alibaba/druid.git</url>
-		<connection>scm:git:https://wenshao@github.com/alibaba/druid.git</connection>
+		<url>https://sohan-agt@github.com/sohan-agt/druid.git</url>
+		<connection>scm:git:https://sohan-agt@github.com/sohan-agt/druid.git</connection>
 	</scm>
 
 	<organization>
