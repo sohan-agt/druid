@@ -22,6 +22,10 @@
 		
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.6</jdk.version>
+
+  		<sonar.projectKey>sohan-agt_druid</sonar.projectKey>
+  		<sonar.organization>sohan-agt</sonar.organization>
+  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<repositories>
@@ -213,12 +217,7 @@
 				<toolsjar>${env.JAVA_HOME}/lib/tools.jar</toolsjar>
 				<jconsolejar>${env.JAVA_HOME}/lib/jconsole.jar</jconsolejar>
 			</properties>
-			<properties>
-  				<sonar.projectKey>sohan-agt_druid</sonar.projectKey>
-  				<sonar.organization>sohan-agt</sonar.organization>
-  				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-			</properties>
-
+			
 			<dependencies>
 				<dependency>
 					<groupId>com.alibaba</groupId>
